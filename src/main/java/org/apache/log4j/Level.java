@@ -77,14 +77,14 @@ public class Level extends Priority implements Serializable {
   public static final Level INFO = new Level(INFO_INT, "INFO", 6);
 
   /**
-   * The <code>DEBUG</code> Level designates fine-grained
+   * The <code>DEBUG</code> level designates fine-grained
    * informational events that are most useful to debug an
    * application.
    */
   public static final Level DEBUG = new Level(DEBUG_INT, "DEBUG", 7);
 
   /**
-   * The <code>TRACE</code> Level designates finer-grained
+   * The <code>TRACE</code> level designates finer-grained
    * informational events than the <code>DEBUG</code level.
    * @since 1.2.12
    */
